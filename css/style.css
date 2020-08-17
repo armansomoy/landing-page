@@ -1,0 +1,461 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    text-decoration-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
+}
+
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/*===== Common css Ends =====*/
+
+
+/*=====navbar css start =====*/
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+    font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff !important;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: all linear .3s;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #bea7ee;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #bea7ee;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active:after {
+    opacity: 1;
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*=====navbar css ends =====*/
+
+
+
+/*===== banner css start =====*/
+
+#banner {
+    background-image: url(../images/banner-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+#banner h2 {
+    padding-top: 320px;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+}
+
+#banner h2 span {
+    color: #bea7ee;
+}
+
+#banner a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #bea7ee;
+    transition: all linear .3s;
+}
+
+#banner a:hover {
+    background-color: #bea7ee;
+}
+
+/*===== banner css ends =====*/
+
+
+/*===== whyUvc css start =====*/
+#whyUvc {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#whyUvc h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #303442;
+    padding-bottom: 35px;
+}
+
+#whyUvc p {
+    color: #7b7b7b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#whyUvc a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: #bea7ee;
+    border: 1px solid #bea7ee;
+    transition: all linear .3s;
+
+}
+
+#whyUvc a:hover {
+    color: #303442;
+    background-color: transparent;
+    border: 2px solid #bea7ee;
+}
+
+/*===== whyUvc css ends =====*/
+
+
+/*===== about css start =====*/
+
+#about {
+    padding-bottom: 60px;
+}
+
+#about .about-image .about-image-1 {
+    position: absolute;
+    z-index: -1;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+#about .about-image .about-image-2 {
+    padding-top: 350px;
+    padding-left: 20px;
+}
+
+#about .about-text {
+    padding: 60px;
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+#about .about-text h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #bea7ee;
+    padding-bottom: 10px;
+}
+
+#about .about-text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #303442;
+    padding-bottom: 10px;
+}
+
+#about .about-text p {
+    color: #7b7b7b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+#about .about-text ul {
+    margin-bottom: 25px;
+}
+
+#about .about-text ul li {
+    list-style: none;
+    color: #7b7b7b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#about .about-text ul li i {
+    padding-right: 10px;
+    font-size: 15px;
+
+}
+
+#about .about-text .about-last img {
+    border-radius: 50%;
+}
+
+#about .about-text .about-last .about-last-middle {
+    border-right: 1px solid #7b7b7b;
+}
+
+#about .about-text .about-last h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #303442;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#about .about-text .about-last p {
+    color: #7b7b7b;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#about .about-text .about-last .signature p {
+    color: #7b7b7b;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+/*===== about css ends =====*/
+
+
+/*===== product css start =====*/
+#product {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+#product h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #303442;
+    padding-bottom: 35px;
+}
+
+#product .product-part {
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    transition: all linear .3s;
+    margin-bottom: 30px;
+}
+
+#product .product-part:hover {
+    background-color: rgb(246, 246, 246);
+    -webkit-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.18);
+}
+
+#product .product-part img {
+    padding-top: 25px;
+}
+
+#product .product-part h4 {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #303442;
+}
+
+#product .product-part p {
+    color: #7b7b7b;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+#product .product-part a {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 22px;
+    border-radius: 50px;
+    background-color: #bea7ee;
+    border: 1px solid #bea7ee;
+    transition: all linear .3s;
+}
+
+/*===== product css ends =====*/
+
+
+/*===== footer css start =====*/
+#futter {
+    background-color: #191919;
+    padding-bottom: 50px;
+}
+
+#futter .newsletter {
+    margin-top: -50px;
+    height: 100px;
+    background-color: #bea7ee;
+    border-radius: 10px;
+}
+
+#futter .newsletter h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 100px;
+}
+
+#futter .newsletter input {
+    width: 350px;
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 10px;
+    color: #7b7b7b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+#futter .futter_detail .logo h2 {
+    padding-top: 40px;
+    color: #ffff;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#futter .futter_detail p {
+    color: #8b969e;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#futter .futter_detail span {
+    color: #fff;
+}
+
+#futter .futter_detail .pay img {
+    width: 90%;
+    padding-top: 30px;
+
+}
+
+#futter .futter_link h4 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#futter .futter_link h4:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #8b969e;
+    bottom: 18px;
+    left: 0;
+
+}
+
+#futter .futter_link ul li {
+    padding: 4px 0;
+}
+
+#futter .futter_link ul li a {
+    color: #8b969e;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+
+#futter .futter_link ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+#copyright .copyright {
+    height: 50px;
+    background: #111111
+}
+
+#copyright .copyright p {
+    color: #8b969e;
+    padding-top: 10px;
+}
+
+/*===== footer css ends =====*/
